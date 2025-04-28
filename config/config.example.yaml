@@ -76,8 +76,8 @@ api-key: ""
 
 # 检测完成后执行的回调脚本路径
 # 脚本将在检测完成后执行，可用于自定义通知或其他操作
-# 例如: "/path/to/your/script.sh" 或 "C:\path\to\your\script.bat"
-# 请在脚本开头添加对应的：#!/bin/bash、#!/bin/sh、#!/usr/bin/env bash 等，编写标准的脚本
+# 例如: "/path/to/your/script.sh" 或 'C:\path\to\your\script.bat'
+# Linux请在脚本开头添加对应的：#!/bin/bash、#!/bin/sh、#!/usr/bin/env bash 等，编写标准的脚本
 callback-script: ""
 
 # 填写搭建的apprise API server 地址
@@ -108,7 +108,7 @@ sub-store-path: ""
 # 如果你想替换其他的自定义覆写文件，自己命名后放在output目录，然后更改此URL后缀即可
 mihomo-overwrite-url: "http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml"
 
-# mihomo api url(测试完成后自动更新mihomo订阅，使用场景有限)
+# mihomo api url(测试完成后自动更新mihomo订阅，使用场景有限不要使用)
 mihomo-api-url: ""
 
 # mihomo api secret
